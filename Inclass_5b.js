@@ -44,4 +44,36 @@ function getCategoryDiscount(category) {
 }
 };
 
+console.log(getCategoryDiscount("gear"));
+
 //STEP 2
+function priceAfterCategoryDiscount(product) {
+  let rate = getCategoryDiscount(product.category)
+  return product.price * (1-rate);
+};
+
+console.log(priceAfterCategoryDiscount(products[0]));
+
+//STEP 3
+function findProductById(id) {
+  for (let product of products) {
+    if (product.id === id)
+      return product;
+  }
+  return null;
+};
+
+//STEP 4
+function findProductById {
+  function priceAfterCategoryDiscount {
+    for (let product of products) {
+      if (product.qty <= 0) {
+        return product.qty * discountedUnitPrice;
+      }
+      else {
+        return 0;
+      }
+    }
+  }
+};
+console.log(products[0])
