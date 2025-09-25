@@ -64,6 +64,7 @@ function findProductById(id) {
 };
 
 //STEP 4
+
 function findProductById {
   function priceAfterCategoryDiscount {
     for (let product of products) {
@@ -76,4 +77,6 @@ function findProductById {
     }
   }
 };
+
+let lineItemTotal(product)
 console.log(products[0])
